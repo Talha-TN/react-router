@@ -1,5 +1,4 @@
 import React from "react";
-import {} from "react-router";
 import { useSearchParams, useNavigate, useLocation } from "react-router-dom";
 const ProductList = () => {
   const [searchParams, setsearchParams] = useSearchParams(); // to get to query entered by user using useSearchParams (query matching product existing or not)
