@@ -6,12 +6,20 @@ import ProductList from "../components/ProductList.jsx";
 import Contact from "../components/Contact.jsx";
 import Admin from "../components/Admin.jsx";
 import PageNotFound from "../components/PageNotFound.jsx";
+import ContactPak from "../components/ContactPak.jsx";
+import ContactKSA from "../components/ContactKSA.jsx";
+import ContactOther from "../components/ContactOther.jsx";
 const RouterCom = () => {
   const user = true;
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<Contact />} >
+      <Route path="pakistan"  element={<ContactPak/>}/>
+      <Route path="ksa"  element={<ContactKSA/>}/>
+      <Route path="*"  element={<ContactOther/>}/>
+      <Route/>
+       </Route>
       {/* <Route path="/productdetails/:name/:id/:country" element={<ProductDetails />} /> // also add name and id both like this (we can add as may as we want but the most usage is of id)  */}
       <Route path="/productdetails/:id" element={<ProductDetails />} /> // to get component matching this id
       <Route path="/productlist" element={<ProductList />} />
