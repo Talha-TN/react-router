@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router'
 const ProductList = () => {
+  const navigate = useNavigate()
   return (
-    <div>ProductList</div>
+    <div>
+      <h1 >product list</h1>
+      <button className='bg-blue-400 p-3 rounded-lg ml-10 mt-10' onClick={()=>navigate("/")}>back to home</button>
+    </div>
   )
 }
 
