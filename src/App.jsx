@@ -1,5 +1,4 @@
-import Footer from "../src/components/Footer.jsx";
-import Header from "../src/components/Header.jsx";
+import {Footer,Header} from "../src/components/index.jsx";
 import RouterCom from "./routes/RouterCom.jsx";
 import "./App.css";
 

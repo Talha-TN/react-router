@@ -6,4 +6,4 @@ const ContactOther = () => {
   )
 }
 
-export default ContactOther
+export {ContactOther}

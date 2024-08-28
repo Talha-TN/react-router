@@ -5,4 +5,4 @@ const ContactPak = () => {
   )
 }
 
-export default ContactPak
+export {ContactPak}

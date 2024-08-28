@@ -11,4 +11,4 @@ const PageNotFound = ({title}) => {
   )
 }
 
-export default PageNotFound
+export {PageNotFound}

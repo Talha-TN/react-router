@@ -6,4 +6,4 @@ const Admin = () => {
   )
 }
 
-export default Admin
+export {Admin}

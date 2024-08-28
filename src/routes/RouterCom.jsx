@@ -1,14 +1,14 @@
 import React from "react";
 import { Route, Routes, Navigate } from "react-router";
-import Home from "../components/Home.jsx";
-import ProductDetails from "../components/ProductDetails.jsx";
-import ProductList from "../components/ProductList.jsx";
-import Contact from "../components/Contact.jsx";
-import Admin from "../components/Admin.jsx";
-import PageNotFound from "../components/PageNotFound.jsx";
-import ContactPak from "../components/ContactPak.jsx";
-import ContactKSA from "../components/ContactKSA.jsx";
-import ContactOther from "../components/ContactOther.jsx";
+import {Home,ProductDetails,ProductList,Admin,ContactPak,Contact,ContactKSA,ContactOther,PageNotFound} from "../pages/index";
+// import ProductDetails from "../components/ProductDetails.jsx";
+// import ProductList from "../components/ProductList.jsx";
+// import Contact from "../components/Contact.jsx";
+// import Admin from "../components/Admin.jsx";
+// import PageNotFound from "../components/PageNotFound.jsx";
+// import ContactPak from "../components/ContactPak.jsx";
+// import ContactKSA from "../components/ContactKSA.jsx";
+// import ContactOther from "../components/ContactOther.jsx";
 const RouterCom = () => {
   const user = true;
   return (

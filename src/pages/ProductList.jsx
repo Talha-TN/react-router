@@ -24,7 +24,7 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export {ProductList}
  ///////////////////
 //  useParams >> if need only id then we can use useparams 
 // useSearchParma >>> if we need more paramemters and filter added by the user then we use useSearchParams

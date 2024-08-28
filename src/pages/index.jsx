@@ -1,0 +1,9 @@
+export { Home } from "./Home";
+export { Admin } from "./Admin";
+export { ProductDetails } from "./ProductDetails";
+export { Contact } from "./contact/Contact";
+export { ContactPak } from "./contact/ContactPak";
+export { ContactKSA } from "./contact/ContactKSA";
+export { ContactOther } from "./contact/ContactOther";
+export { PageNotFound } from "./PageNotFound";
+export { ProductList } from "./ProductList";
